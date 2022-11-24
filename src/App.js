@@ -14,18 +14,19 @@ function App() {
     <Router>
       <div className="App ">
         <Navbar />
+
           <div className="content">
               <Switch>
-                  <Route exact path='/'>
+                  <Route exact path='/' component={Home}>
                     <Home />
                   </Route>
-                  <Route exact path='/About'>
+                  <Route exact path='/About' component={About}>
                     <About />
                   </Route>
-                  <Route exact path='/Projects'>
+                  <Route exact path='/Projects' component={Projects}>
                     <Projects />
                   </Route>
-                  <Route exact path='/Resume'>
+                  <Route exact path='/Resume' component={Resume}>
                     <Resume />
                   </Route>
               </Switch>

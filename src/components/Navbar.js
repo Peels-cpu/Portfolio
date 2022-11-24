@@ -13,7 +13,7 @@ function BasicExample() {
 
     <Navbar fixed="top"  collapseOnSelect expand="md" bg="dark" variant="dark">
     <Container>
-      <Navbar.Brand href="/">Romeo Pablo</Navbar.Brand>
+      <Navbar.Brand >Romeo Pablo</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">

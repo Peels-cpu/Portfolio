@@ -2,7 +2,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'; 
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App ">
         <Navbar />
-
+        
           <div className="content">
               <Switch>
                   <Route exact path='/' component={Home}>

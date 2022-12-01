@@ -19,7 +19,7 @@ const Skills = () => {
                     Bootstrap and React-Bootstrap
                 </li>
                 <li className="listSpace">
-                    Git and Github Repository
+                    Git and Github Pages
                 </li>
                 <li className="listSpace">
                     JavaScript
@@ -31,7 +31,7 @@ const Skills = () => {
                     Wordpress
                 </li>
 
-                <li className="listSpace">
+                <li className="listSpace" style={{marginBottom:'30px'}}>
                     Responsive Design and Programing
                 </li>
 

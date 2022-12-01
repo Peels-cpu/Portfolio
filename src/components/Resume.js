@@ -104,7 +104,7 @@ const Body = () => {
                     <small>July-2021 to Currently</small>
                     <p>I Currently Study Front End Development to expanding my knowedge and skills to pursue my new found passion for coding</p>
                     <ul>
-                        <h3>Activly looking to work for companys that will help me develope my skills even higher.</h3>
+                        <h4>Actively looking to work for a company that will help me develop my skills even higher.</h4>
                     </ul>
                     <ul>
                         <h3>Current skills</h3>

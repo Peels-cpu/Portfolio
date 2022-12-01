@@ -12,13 +12,7 @@ const About = () => {
         <div className="App-header">
             <div className="AboutContainer">
                 <h1>About Me</h1>
-                <h4>EDUCATION:  Sir Robert L Borden Business & Technical Institute	2006-2010</h4>
-                <h5>ACHIEVEMENTS</h5>
-                <ul>
-                    <li>Maintained a perfect attendance at Sir Robert L. Borden from Grade 9 & 10</li>
-                    <li>Acquired the Honor Roll Award through Grade 9 & 10</li>
-                    <li>Obtained the Co-op Student Award during my time at Sir Robert Borden</li>
-                </ul>
+
                 <div className="image-container">
 
                 <img alt="Profile pic of me" className='imageSize' src={Sanitation}></img>
@@ -38,12 +32,11 @@ const About = () => {
                 </p>
                 <img alt="Profile pic of me" className='imageSize' src={Coding}></img>
                 <p>
-                    During the pandemic I slowly honed my coding skills, while studying I was also playing
-                    a virtual reality game called Revomon.
+                    During the pandemic I developed my coding skills with coding bootcamps such as team tree house and codecademy. I first learned the basics of HTML, CSS/SASS, bootstrap, Javascript and react. 
                 </p>
                 
                 <p>
-                    Revomon gave me a topic to build my projects around, and so I created and launched my first website the Counter Dex.
+                    Revomon gave me a topic to build my projects around, and so I created and launched my first website, The Counter Dex.
                 </p>
                 <img alt="Profile pic of me" className='imageSize' src={CounterDex}></img>
                 <p>
@@ -64,6 +57,14 @@ const About = () => {
                     own.
                 </p>
                 <img alt="Profile pic of me" className='imageSize' src={Group}></img>
+                <h4>EDUCATION:  Sir Robert L Borden Business & Technical Institute	2006-2010</h4>
+                <h5>ACHIEVEMENTS</h5>
+                <ul>
+                    <li>Maintained a perfect attendance at Sir Robert L. Borden from Grade 9 & 10</li>
+                    <li>Acquired the Honor Roll Award through Grade 9 & 10</li>
+                    <li>Obtained the Co-op Student Award during my time at Sir Robert Borden</li>
+                    <li>Proud to be actively learning about software development and expanding my skills.</li>
+                </ul>
                 
             </div>
             <Contact />

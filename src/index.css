@@ -147,7 +147,7 @@ height: auto;
 }
 .listSpace{
   margin-top: 30px;
-  font-weight: 600;
+  font-size: 30px;
   color: rgb(180, 238, 238);
 }
 
@@ -183,8 +183,19 @@ height: auto;
   width: 60%;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+
+}
+.card{
+  width: 100%;
+  margin-top: 50px;
+}
+.column{
+  margin: 20px;
+}
+li{
+  padding: 10px;
 }
 /* About page css */
 .AboutContainer{
@@ -197,26 +208,6 @@ height: auto;
   margin: 60px 0px 30px 0px;
 }
 
-/* video sizes */
-.video-container {
-  overflow: hidden;
-  position: relative;
-  width:100%;
-}
-
-.video-container::after {
-  padding-top: 56.25%;
-  display: block;
-  content: '';
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 .number{
   font-size: 30px;
   color: white;
@@ -313,11 +304,8 @@ height: auto;
     height: auto;
   }
   .landingPageBg{
-
     height: auto;
-
   }
-
 } 
 /* Resume CSS */
 .Block{

@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 
 
 
@@ -9,18 +10,19 @@ import { Link } from "react-router-dom";
 
 
 function BasicExample() {
+  const [expanded, setExpanded] = useState(false);
   return (
 
-    <Navbar fixed="top"  collapseOnSelect expand="md" bg="dark" variant="dark">
+    <Navbar fixed="top" expanded={expanded}  collapseOnSelect expand="md" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand >Romeo Pablo</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-          <Link className="links " to="/">Home</Link>
-          <Link className="links " to="/Projects">Projects</Link>
-          <Link className="links " to="/About">About</Link>
-          <Link className="links " to="/Resume">Resume</Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/">Home</Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/Projects">Projects</Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/About">About</Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/Resume">Resume</Link>
         </Nav>
 
         <div className="icons">

@@ -55,7 +55,7 @@ function Contact() {
 
       <Card className='FooterContainer' style={{ backgroundColor: 'black' }}>
         <Card.Header>
-        <h4>Let's connect and build something!</h4>
+        <h4>Let's connect and build something.</h4>
           <CustomToggle eventKey="1" >Email</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">

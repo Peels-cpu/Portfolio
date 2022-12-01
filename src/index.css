@@ -20,7 +20,7 @@ body {
 }
 .ProjectsBG{
   height: 100vh;
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(0, 0, 0);
   color:rgb(210, 230, 38);
   text-shadow: #000000 3px 2px;
   background-image: url(./components/image/projectsBG.png);
@@ -215,6 +215,7 @@ li{
 }
 .FooterContainer{
   width: 100%;
+  background-color: black;
 }
 /* Skills Css */
 

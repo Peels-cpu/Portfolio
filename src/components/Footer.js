@@ -9,7 +9,7 @@ function Footer() {
   
   return (
     
-    <Navbar bg="light" expand="xlg" className='centered'>
+    <Navbar bg="dark" expand="xlg" className='centered'>
       <Container  >
       
       <div className="icons ">

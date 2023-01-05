@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bfebddcd.css",
-    "main.js": "/Portfolio/static/js/main.7db86dce.js",
+    "main.css": "/Portfolio/static/css/main.db26a2e4.css",
+    "main.js": "/Portfolio/static/js/main.052f7524.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/projectsBG.png": "/Portfolio/static/media/projectsBG.775b6f11efdbbf62ccf3.png",
     "static/media/profilePic.jpg": "/Portfolio/static/media/profilePic.aa8a8cc51f4154dc3e96.jpg",
@@ -9,19 +9,19 @@
     "static/media/CounterDex.png": "/Portfolio/static/media/CounterDex.185ae90091643fef5296.png",
     "static/media/battle.png": "/Portfolio/static/media/battle.916d6120691fd3c28a4b.png",
     "static/media/information.jpg": "/Portfolio/static/media/information.edac5e3f153ca4a7683a.jpg",
-    "static/media/background.jpg": "/Portfolio/static/media/background.3addc4ad57b5bb981d34.jpg",
     "static/media/Valulator.png": "/Portfolio/static/media/Valulator.45ccffaf87263196f665.png",
     "static/media/Group.webp": "/Portfolio/static/media/Group.649447e2b42319c50f8e.webp",
     "static/media/revomonOnline.jpg": "/Portfolio/static/media/revomonOnline.8d649616eeebcdc5c09a.jpg",
     "static/media/covid.jpg": "/Portfolio/static/media/covid.da9603c2b4460224ff1e.jpg",
+    "static/media/valulatorRoom.jpg": "/Portfolio/static/media/valulatorRoom.cc98e6b24382017d6685.jpg",
     "static/media/RevoTriviaCard.jpg": "/Portfolio/static/media/RevoTriviaCard.ea88581018e90853deb4.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.bfebddcd.css.map": "/Portfolio/static/css/main.bfebddcd.css.map",
-    "main.7db86dce.js.map": "/Portfolio/static/js/main.7db86dce.js.map",
+    "main.db26a2e4.css.map": "/Portfolio/static/css/main.db26a2e4.css.map",
+    "main.052f7524.js.map": "/Portfolio/static/js/main.052f7524.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfebddcd.css",
-    "static/js/main.7db86dce.js"
+    "static/css/main.db26a2e4.css",
+    "static/js/main.052f7524.js"
   ]
 }

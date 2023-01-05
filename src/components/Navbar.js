@@ -3,6 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
+import { BsHouseDoorFill, BsInfoCircleFill, BsFillFileEarmarkTextFill, BsFillPuzzleFill } from "react-icons/bs";
+
+
 
 
 
@@ -19,10 +22,10 @@ function BasicExample() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-          <Link onClick={() => setExpanded(false)} className="links " to="/">Home</Link>
-          <Link onClick={() => setExpanded(false)} className="links " to="/Projects">Projects</Link>
-          <Link onClick={() => setExpanded(false)} className="links " to="/About">About</Link>
-          <Link onClick={() => setExpanded(false)} className="links " to="/Resume">Resume</Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/"><a id="home" className="menu-item" href="/"><BsHouseDoorFill />Home</a></Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/Projects"><a id="about" className="menu-item" href="/about"><BsFillPuzzleFill /> Projects</a></Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/About"><a id="about" className="menu-item" href="/about"><BsInfoCircleFill /> About</a></Link>
+          <Link onClick={() => setExpanded(false)} className="links " to="/Resume"><a id="about" className="menu-item" href="/resume"><BsFillFileEarmarkTextFill /> Resume</a></Link>
         </Nav>
 
         <div className="icons">

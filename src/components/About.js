@@ -1,4 +1,3 @@
-import React from "react";
 import Contact from './Contact';
 import Sanitation from './image/sanitation.jpg';
 import Covid from './image/covid.jpg';
@@ -6,8 +5,15 @@ import Coding from './image/coding.jpg';
 import CounterDex from './image/CounterDex.png';
 import RevoTrivia from './image/RevoTriviaCard.jpg';
 import Group from './image/Group.webp';
+import AOS from 'aos';
+import React, { useState, useEffect } from 'react';
+import 'aos/dist/aos.css'
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000});
+      }, {})
+
     return ( 
         <div className="App-header">
             <div className="AboutContainer">
@@ -15,7 +21,7 @@ const About = () => {
 
                 <div className="image-container">
 
-                <img alt="Profile pic of me" className='imageSize' src={Sanitation}></img>
+                <img alt="Profile pic of me" className='imageSize' src={Sanitation}  data-aos="zoom-in"></img>
 
                 </div>
 
@@ -25,12 +31,12 @@ const About = () => {
                 </p>
                 <hr />
                 <h4 style={{color:'Orange'}}>Fast forword into 2021. Into the Covid Pandemic.</h4>
-                <img alt="Profile pic of me" className='imageSize' src={Covid}></img>
+                <img alt="Profile pic of me" className='imageSize' src={Covid} data-aos="zoom-in"></img>
                 <p>
                     When covid started, I was affected by the mass layoff of the factory and started thinking more about a long term career. During Isolation, I was on 
                     the computer more than I was ever used to.
                 </p>
-                <img alt="Profile pic of me" className='imageSize' src={Coding}></img>
+                <img alt="Profile pic of me" className='imageSize' src={Coding} data-aos="zoom-in"></img>
                 <p>
                     During the pandemic I developed my coding skills with coding bootcamps such as team tree house and codecademy. I first learned the basics of HTML, CSS/SASS, bootstrap, Javascript and react. 
                 </p>
@@ -38,13 +44,13 @@ const About = () => {
                 <p>
                     Revomon gave me a topic to build my projects around, and so I created and launched my first website, The Counter Dex.
                 </p>
-                <img alt="Profile pic of me" className='imageSize' src={CounterDex}></img>
+                <img alt="Profile pic of me" className='imageSize' src={CounterDex} data-aos="zoom-in"></img>
                 <p>
                     Being the only 4 time tournament champion of revomon battles (Tournament held every month).
                     I thought that I should be the most qualified person to make an entire website about revomon
                     Strategy and battle mechanics and so the Counter Dex was created with simple HTML SASS/CSS and Javascript with bootstrap. 
                 </p>
-                <img alt="Profile pic of me" className='imageSize' src={RevoTrivia}></img>
+                <img alt="Profile pic of me" className='imageSize' src={RevoTrivia} data-aos="zoom-in"></img>
                 <p>
                     I spent acouple of weeks learning the basics of React and soon I created a trivia game based on the Revomon monsters from my favourite game. 
                     I hosted the React app using Git hub pages and pushed all my project codes into my git hub.
@@ -56,15 +62,8 @@ const About = () => {
                     As a self taught coder, I wish to work with others and expand my skills deeper into this fullfilling career with greater speed than learning on my
                     own.
                 </p>
-                <img alt="Profile pic of me" className='imageSize' src={Group}></img>
-                <h4>EDUCATION:  Sir Robert L Borden Business & Technical Institute	2006-2010</h4>
-                <h5>ACHIEVEMENTS</h5>
-                <ul>
-                    <li>Maintained a perfect attendance at Sir Robert L. Borden from Grade 9 & 10</li>
-                    <li>Acquired the Honor Roll Award through Grade 9 & 10</li>
-                    <li>Obtained the Co-op Student Award during my time at Sir Robert Borden</li>
-                    <li>Proud to be actively learning about software development and expanding my skills.</li>
-                </ul>
+                <img alt="Profile pic of me" className='imageSize' src={Group} data-aos="zoom-in"></img>
+
                 
             </div>
             <Contact />

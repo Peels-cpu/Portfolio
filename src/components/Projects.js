@@ -1,4 +1,3 @@
-import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Information from './image/information.jpg';
@@ -6,21 +5,27 @@ import Valulator from './image/Valulator.png';
 import CounterDex from './image/CounterDex.png';
 import RevoTrivia from './image/RevoTriviaCard.jpg';
 import RevomonOnline from './image/revomonOnline.jpg';
-
+import AOS from 'aos';
+import React, { useState, useEffect } from 'react';
+import 'aos/dist/aos.css'
 
 
 const Body = () => {
+
+    useEffect(() => {
+        AOS.init({duration: 2000});
+      }, {})
     return ( 
         <div className="App-header">
             <h1 style={{marginTop:'100px'}}>My Projects</h1>
             <h5 style={{width:'50%'}}>
                 My projects for the game of Revomon, each site will undergo updates for each new release from the game.
             </h5>
-            <div className="CardsContainer">
-                <Card className="Card">
-                    <h1 style={{backgroundColor:'blue'}}>Revo Trivia</h1>
+            <div className="CardsContainer" >
+                <Card className="Card" data-aos="zoom-in">
+                    <h1 style={{backgroundColor:'black'}}>Revo Trivia</h1>
                 <img alt="revo trivia website"  src={RevoTrivia}></img>
-                    <Card.Body style={{  color:'white', backgroundColor:'black' }}>
+                    <Card.Body style={{  color:'white', backgroundColor:'black' }} data-aos="fade-down">
                         <Card.Title>Revo Trivia</Card.Title>
                         <Card.Text style={{ fontSize:'12px' }}>
                             A Trivia game Based on the monsters of Revmon, made with React.
@@ -44,10 +49,10 @@ const Body = () => {
                 </Card>
                 <hr />
             
-                <Card >
-                <h1 style={{backgroundColor:'blue'}}>Valulator</h1>
+                <Card data-aos="zoom-in">
+                <h1 style={{backgroundColor:'black'}}>Valulator</h1>
                 <img alt="revo price calculator website"  src={Valulator}></img>
-                    <Card.Body style={{  color:'white', backgroundColor:'black' }}>
+                    <Card.Body style={{  color:'white', backgroundColor:'black' }} data-aos="fade-down">
                         <Card.Title>Valulator</Card.Title>
                         <Card.Text style={{ fontSize:'12px' }}>
                             This site page helps new and intermediate players alike determine the value of the revomon they caught.
@@ -64,12 +69,12 @@ const Body = () => {
                             <Button className="column" href="https://github.com/Peels-cpu/Projects/commit/15ef9f02013527d141da704af39860e1adc72a3c" target="_blank"  variant="info">View Code</Button>
                         </div>
                     </Card.Body>
-                </Card>
+                </Card >
 
-                <Card >
-                <h1 style={{backgroundColor:'blue'}}>Counter Dex</h1>
+                <Card data-aos="zoom-in">
+                <h1 style={{backgroundColor:'black'}}>Counter Dex</h1>
                 <img alt="Counter dex website"  src={CounterDex}></img>
-                    <Card.Body style={{  color:'white', backgroundColor:'black' }}>
+                    <Card.Body style={{  color:'white', backgroundColor:'black' }} data-aos="fade-down">
                         <Card.Title>Counter Dex</Card.Title>
                         <Card.Text style={{ fontSize:'12px' }}>
                             The main site for revomon Pvp Knowledge and Revomon Counters.
@@ -91,10 +96,10 @@ const Body = () => {
                     </Card.Body>
                 </Card>
 
-                <Card >
-                <h1 style={{backgroundColor:'blue'}}>Information Page</h1>
+                <Card data-aos="zoom-in">
+                <h1 style={{backgroundColor:'black'}}>Information Page</h1>
                 <img alt="Information page"  src={Information}></img>
-                    <Card.Body style={{  color:'white', backgroundColor:'black' }}>
+                    <Card.Body style={{  color:'white', backgroundColor:'black' }} data-aos="fade-down">
                         <Card.Title>Info Page</Card.Title>
                         <Card.Text style={{ fontSize:'12px' }}>
                             An Information page about revmon mechanics that helps new and intermediate players alike.
@@ -115,10 +120,10 @@ const Body = () => {
                     </Card.Body>
                 </Card>
 
-                <Card >
-                <h1 style={{backgroundColor:'blue'}}>Revomon Online </h1>
+                <Card data-aos="zoom-in">
+                <h1 style={{backgroundColor:'black'}}>Revomon Online </h1>
                 <img alt="wordpress website website"  src={RevomonOnline}></img>
-                    <Card.Body style={{  color:'white', backgroundColor:'black' }}>
+                    <Card.Body style={{  color:'white', backgroundColor:'black' }} data-aos="fade-down">
                         <Card.Title>Revomon Online</Card.Title>
                         <Card.Text style={{ fontSize:'12px' }}>
                             A Wordpress site that I help maintain when new content is released.

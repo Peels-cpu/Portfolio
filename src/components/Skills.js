@@ -32,6 +32,9 @@ const Skills = () => {
                 <li className="listSpace" data-aos="zoom-in">
                     JavaScript
                 </li>
+                <li className="listSpace" data-aos="zoom-in">
+                    API integration
+                </li>
                 <li className="listSpace" data-aos="flip-right">
                     React
                 </li>

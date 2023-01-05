@@ -12,7 +12,7 @@ const Home = () => {
         <div className="landingPageBg"  style={{marginTop:'100px'}}>
             <img alt="Profile pic of me" className='profilePicture ' src={ProfilePic}></img>
             <h1>Hello I'm Romeo Pablo</h1>
-            <p style={{margin:'0px 10px 10px 10px'}}>Self-taught Developer: The only good thing that came from the covid crisis is that it gave me time to find my passion for coding. </p>
+            <p style={{margin:'0px 10px 10px 10px'}}>Seeking a challenging software development role where I can use my skills to create innovative solutions.</p>
         </div>
         <div className="">
           <Skills />

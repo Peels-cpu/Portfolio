@@ -14,32 +14,63 @@ const Body = () => {
                     <h5>Located at Ontario, Scarborough: Canada </h5>
                 </div>
                 <hr />
+                <h4>Summary</h4>
+                <p>with 2+ years of experience, coordinating and planning projects that lead to progression with my passion and drive to succeed in achieving and solving problems in the software industry as  Jr Developer (3+) years in customer service.</p>
+                <hr />
+                <h4>Core Proficiencies: </h4>
+                <p> Proficent in problem solving, communication skills, organized, great time management, reliable and  punctual, self-motivated and presistent in completing and delivering tasks in a timely manner with great results. Flexible, hardworking, knowledge in front/end development.</p>
+                <h4>Key Skills</h4>
+                <p>Java Script, CSS/SASS, HTML, JSON Data, Bootstrap/Bootstrap-React, GitRespository, Github, Gitbash, Responsive Websites and Programming, React/Node/Vs Code, API Integrations, Visual Studio, WordPress, SquareSpace, (SEO) Search Engine Optimization, Data Entry, Powerpoint, Microsoft, Microsoft Outlook, Communication Skills, Microsoft office, Phone Etiquette, Microsoft Word, Research, Customer Service Skills (3) Years, Troubleshooting operating systems, Data Collection, Browser intergretions,  Email, fax, printer</p>
+                <h4>Certifications/Licenses: </h4>
+                <li>Honorable Roll</li>
+                <li>Perfect attendance Grade 9&10</li>
+                <hr />
+                <h1>My Work History</h1>
+                <hr />
                 <div className="">
-                    <h1>My Work History</h1>
-                    <hr />
-                    <h4>General Labour Tent-Builder/Deconstruction (Event Rental Group) </h4>
-                    <small>June 2015 - September 2015 (Summer Job)</small>
-                    <p>Address: 210 Wicksteed Ave, East York, ON M4G 2C3</p>
+                <h4> What I Currently Do </h4>
+                    <small>July-2021 to Currently</small>
+                    <h4>I am currently the developer for the HOC-DAO for revomon clans.</h4>
                     <ul>
-                        <h3>Tasks</h3>
-                        <li>Event Rental Group Construct/deconstruct Rental tents at the given location</li>
-                        <li>Load/Unload the Truck for the work at hand Organize the truck for materials to fit.</li>
-                        <li>Work with the team in a friendly manner to finish work faster.</li>
+                        <p>I develop websites for the game of revomon to help popularize and spread the awareness of the amazing game of revomon.</p>
+                        <li>I store data and information from the game into the counterdex website and revomon online websites to help guide beginner and intermediate players alike.</li>
                     </ul>
                 </div>
                 <hr />
                 <div className="">
-                <h4>Security Guard Company(Securitas) </h4>
-                    <small>January-December 2016</small>
-                    <p>Stationed At 5 Greystone Walk Dr</p>
+                <h4> Stone Mill Bakery (Sanitation for day/night porter) </h4>
+                    <small>February-2019 to June-2021</small>
+                    <p>Address: 365 Passmore Ave, Scarborough, ON M1V 4B3</p>
                     <ul>
                         <h3>Tasks</h3>
-                        <li>Maintaining a professional relationship with our customers, ensuring that the Branch Manager is informed of issues that arise at the site.</li>
-                        <li>Communicating in a manner that is open, honest and responsible in all situations</li>
-                        <li>Patrolling assigned site on foot or in vehicle, checking for unsafe conditions, hazards, unlocked doors, safety violations and unauthorized persons.</li>
-                        <li>Protecting evidence or scene of incident in the event of accidents, emergencies or security investigations.</li>
-                        <li>Ensuring that all property removal is conducted within appropriate policy requirements in accordance with client standard.</li>
-                        <li>Controlling access to client site or facility through the admittance process.</li>
+                        <li>Washed all industrial bowls, buckets and necessary tools  for the up and coming shift for the mixers.</li>
+                        <li>Finished all necessary tasks for the day, swept, moped and whipped down both bathrooms, cleaned and replaced garbage bins for the locker rooms. </li>
+                        <li>Scraped dough off the production lines such as mixers, belts for each line. </li>
+                        <li>Sweep and Mop upstairs Offices</li>
+                    </ul>
+                </div>
+                <hr />
+                <div className="">
+                    <h4>Worked at Mondelez International as a Sanitation Worker (One Year contract) </h4>
+                    <small>December-2017 to December-2018</small>
+                    <p>Address: 370 Progress Ave, Scarborough, ON M1P 2Z4</p>
+                    <ul>
+                        <h3>Tasks</h3>
+                        <li>Deep cleaned and Prioritised allergen work stations.</li>
+                        <li>Washing mixers, droppers and operator lines. </li>
+                        <li>Daily sweeping, mopping, and scraping rejected dough batch off mixers and conveyor belt lines. </li>
+                        <li>Daily janitorial requests from supervisors.</li>
+                    </ul>
+                </div>
+                <div className="">
+                <h4>Part Time Mold Press Machine Operator Viva Media Packaging </h4>
+                    <small>July-2017 December-2017</small>
+                    <p>5373 Finch Ave E, Scarborough, ON M1S 5W2</p>
+                    <ul>
+                        <h3>Tasks</h3>
+                        <li>Operates and fixes the machine if they are clogged with CD cases. </li>
+                        <li>Works in the production line with molding injection machines. </li>
+                        <li>Repair Clogged machines from rejected plastic molds. </li>
                     </ul>
                 </div>
                 <hr />
@@ -62,64 +93,36 @@ const Body = () => {
                 </div>
                 <hr />
                 <div className="">
-                <h4>Part Time Mold Press Machine Operator Viva Media Packaging </h4>
-                    <small>July-2017 December-2017</small>
-                    <p>5373 Finch Ave E, Scarborough, ON M1S 5W2</p>
+                <h4>Security Guard Company(Securitas) </h4>
+                    <small>January-December 2016</small>
+                    <p>Stationed At 5 Greystone Walk Dr</p>
                     <ul>
                         <h3>Tasks</h3>
-                        <li>Operates and fixes the machine if they are clogged with CD cases. </li>
-                        <li>Works in the production line with molding injection machines. </li>
-                        <li>Repair Clogged machines from rejected plastic molds. </li>
+                        <li>Maintaining a professional relationship with our customers, ensuring that the Branch Manager is informed of issues that arise at the site.</li>
+                        <li>Communicating in a manner that is open, honest and responsible in all situations</li>
+                        <li>Patrolling assigned site on foot or in vehicle, checking for unsafe conditions, hazards, unlocked doors, safety violations and unauthorized persons.</li>
+                        <li>Protecting evidence or scene of incident in the event of accidents, emergencies or security investigations.</li>
+                        <li>Ensuring that all property removal is conducted within appropriate policy requirements in accordance with client standard.</li>
+                        <li>Controlling access to client site or facility through the admittance process.</li>
                     </ul>
                 </div>
                 <hr />
+
                 <div className="">
-                <h4>Kelly Services(Agency) for Mondelez International as a Sanitation Worker (One Year contract) </h4>
-                    <small>December-2017 to December-2018</small>
-                    <p>Address: 370 Progress Ave, Scarborough, ON M1P 2Z4</p>
+                    
+                    <hr />
+                    <h4>General Labour Tent-Builder/Deconstruction (Event Rental Group) </h4>
+                    <small>June 2015 - September 2015 (Summer Job)</small>
+                    <p>Address: 210 Wicksteed Ave, East York, ON M4G 2C3</p>
                     <ul>
                         <h3>Tasks</h3>
-                        <li>Deep cleaned and Prioritised allergen work stations.</li>
-                        <li>Washing mixers, droppers and operator lines. </li>
-                        <li>Daily sweeping, mopping, and scraping rejected dough batch off mixers and conveyor belt lines. </li>
-                        <li>Daily janitorial requests from supervisors.</li>
+                        <li>Event Rental Group Construct/deconstruct Rental tents at the given location</li>
+                        <li>Load/Unload the Truck for the work at hand Organize the truck for materials to fit.</li>
+                        <li>Work with the team in a friendly manner to finish work faster.</li>
                     </ul>
                 </div>
                 <hr />
-                <div className="">
-                <h4> Stone Mill Bakery (Sanitation for day/night porter) </h4>
-                    <small>February-2019 to June-2021</small>
-                    <p>Address: 365 Passmore Ave, Scarborough, ON M1V 4B3</p>
-                    <ul>
-                        <h3>Tasks</h3>
-                        <li>Washed all industrial bowls, buckets and necessary tools  for the up and coming shift for the mixers.</li>
-                        <li>Finished all necessary tasks for the day, swept, moped and whipped down both bathrooms, cleaned and replaced garbage bins for the locker rooms. </li>
-                        <li>Scraped dough off the production lines such as mixers, belts for each line. </li>
-                        <li>Sweep and Mop upstairs Offices</li>
-                    </ul>
-                </div>
-                <hr />
-                <div className="">
-                <h4> What I Currently Do </h4>
-                    <small>July-2021 to Currently</small>
-                    <p>I Currently Study Front End Development to expanding my knowedge and skills to pursue my new found passion for coding</p>
-                    <ul>
-                        <h4>Actively looking to work for a company that will help me develop my skills even higher.</h4>
-                    </ul>
-                    <ul>
-                        <h3>Current skills</h3>
-                        <li>HTML</li>
-                        <li>CSS/Sass </li>
-                        <li>Bootstrap and React-Bootstrap </li>
-                        <li>Git and Github Repository</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Wordpress</li>
-                        <li>Responsive Design and Programing</li>
-                    </ul>
-                </div>
-                <hr />
-                
+
             </div>
             <hr />
             <Contact  />

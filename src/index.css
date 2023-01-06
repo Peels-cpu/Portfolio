@@ -61,6 +61,9 @@ code {
 .App-link {
   color: #61dafb;
 }
+li{
+ list-style: none;
+}
 
 
 /* Nav Css */
@@ -78,7 +81,7 @@ nav {
   font-family: Arial bold, Helvetica, sans-serif;
   text-shadow: black 2px 2px 2px;
   position: sticky;
-  opacity: .9;
+  opacity: .95;
 }
 a.links{
   font-size: 25px;

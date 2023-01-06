@@ -46,8 +46,7 @@ const About = () => {
                 </p>
                 <img alt="Profile pic of me" className='imageSize' src={CounterDex} data-aos="zoom-in"></img>
                 <p>
-                    Being the only 4 time tournament champion of revomon battles (Tournament held every month).
-                    I thought that I should be the most qualified person to make an entire website about revomon
+                    
                     Strategy and battle mechanics and so the Counter Dex was created with simple HTML SASS/CSS and Javascript with bootstrap. 
                 </p>
                 <img alt="Profile pic of me" className='imageSize' src={RevoTrivia} data-aos="zoom-in"></img>

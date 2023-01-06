@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.db26a2e4.css",
-    "main.js": "/Portfolio/static/js/main.052f7524.js",
+    "main.css": "/Portfolio/static/css/main.acd581ed.css",
+    "main.js": "/Portfolio/static/js/main.6dcd8ac6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/projectsBG.png": "/Portfolio/static/media/projectsBG.775b6f11efdbbf62ccf3.png",
     "static/media/profilePic.jpg": "/Portfolio/static/media/profilePic.aa8a8cc51f4154dc3e96.jpg",
@@ -16,12 +16,12 @@
     "static/media/valulatorRoom.jpg": "/Portfolio/static/media/valulatorRoom.cc98e6b24382017d6685.jpg",
     "static/media/RevoTriviaCard.jpg": "/Portfolio/static/media/RevoTriviaCard.ea88581018e90853deb4.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.db26a2e4.css.map": "/Portfolio/static/css/main.db26a2e4.css.map",
-    "main.052f7524.js.map": "/Portfolio/static/js/main.052f7524.js.map",
+    "main.acd581ed.css.map": "/Portfolio/static/css/main.acd581ed.css.map",
+    "main.6dcd8ac6.js.map": "/Portfolio/static/js/main.6dcd8ac6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db26a2e4.css",
-    "static/js/main.052f7524.js"
+    "static/css/main.acd581ed.css",
+    "static/js/main.6dcd8ac6.js"
   ]
 }

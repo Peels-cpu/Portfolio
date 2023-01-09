@@ -15,12 +15,12 @@ const Body = () => {
                 </div>
                 <hr />
                 <h4>Summary</h4>
-                <p>with 2+ years of experience, coordinating and planning projects that lead to progression with my passion and drive to succeed in achieving and solving problems in the software industry as  Jr Developer (3+) years in customer service.</p>
+                <p>With 2+ years of experience, coordinating and planning projects that lead to progression with my passion and drive to succeed in achieving and solving problems in the software industry as a Developer. With (3+) years in customer service.</p>
                 <hr />
                 <h4>Core Proficiencies: </h4>
-                <p> Proficent in problem solving, communication skills, organized, great time management, reliable and  punctual, self-motivated and presistent in completing and delivering tasks in a timely manner with great results. Flexible, hardworking, knowledge in front/end development.</p>
+                <p> Proficent in problem solving, communication skills, organized, great time management, reliable and  punctual, self-motivated and presistent in completing and delivering tasks in a timely manner with great results. Flexible, hardworking, knowledge in software development.</p>
                 <h4>Key Skills</h4>
-                <p>Java Script, CSS/SASS, HTML, JSON Data, Bootstrap/Bootstrap-React, GitRespository, Github, Gitbash, Responsive Websites and Programming, React/Node/Vs Code, API Integrations, Visual Studio, WordPress, SquareSpace, (SEO) Search Engine Optimization, Data Entry, Powerpoint, Microsoft, Microsoft Outlook, Communication Skills, Microsoft office, Phone Etiquette, Microsoft Word, Research, Customer Service Skills (3) Years, Troubleshooting operating systems, Data Collection, Browser intergretions,  Email, fax, printer</p>
+                <p>Java Script, CSS/SASS, HTML, JSON Data, Bootstrap/Bootstrap-React, Git Respository, Github, node.js/Gitbash, Responsive Websites and Programming, React/Node/Vs Code, API Integrations, Visual Studio, WordPress, SquareSpace, (SEO) Search Engine Optimization, Data Entry, Powerpoint, Microsoft, Microsoft Outlook, Communication Skills, Microsoft office, Phone Etiquette, Microsoft Word, Research, Customer Service Skills (3) Years, Troubleshooting operating systems, Data Collection, Browser intergretions,  Email, fax, printer</p>
                 <h4>Certifications/Licenses: </h4>
                 <li>Honorable Roll</li>
                 <li>Perfect attendance Grade 9&10</li>

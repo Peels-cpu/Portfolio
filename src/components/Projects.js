@@ -19,7 +19,7 @@ const Body = () => {
         <div className="App-header">
             <h1 style={{marginTop:'100px'}}>My Projects</h1>
             <h5 style={{width:'50%'}}>
-                My projects for the game of Revomon, each site will undergo updates for each new release from the game.
+                Each part of the site will undergo updates for each new release from the game.
             </h5>
             <div className="CardsContainer" >
                 <Card className="Card" data-aos="zoom-in">

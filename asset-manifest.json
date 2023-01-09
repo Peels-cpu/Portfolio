@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.acd581ed.css",
-    "main.js": "/Portfolio/static/js/main.6dcd8ac6.js",
+    "main.css": "/Portfolio/static/css/main.c596647b.css",
+    "main.js": "/Portfolio/static/js/main.b3beb51f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/projectsBG.png": "/Portfolio/static/media/projectsBG.775b6f11efdbbf62ccf3.png",
     "static/media/profilePic.jpg": "/Portfolio/static/media/profilePic.aa8a8cc51f4154dc3e96.jpg",
     "static/media/sanitation.jpg": "/Portfolio/static/media/sanitation.2f99cab7312192a090c7.jpg",
     "static/media/CounterDex.png": "/Portfolio/static/media/CounterDex.185ae90091643fef5296.png",
@@ -12,16 +11,15 @@
     "static/media/Valulator.png": "/Portfolio/static/media/Valulator.45ccffaf87263196f665.png",
     "static/media/Group.webp": "/Portfolio/static/media/Group.649447e2b42319c50f8e.webp",
     "static/media/revomonOnline.jpg": "/Portfolio/static/media/revomonOnline.8d649616eeebcdc5c09a.jpg",
-    "static/media/covid.jpg": "/Portfolio/static/media/covid.da9603c2b4460224ff1e.jpg",
     "static/media/valulatorRoom.jpg": "/Portfolio/static/media/valulatorRoom.cc98e6b24382017d6685.jpg",
     "static/media/RevoTriviaCard.jpg": "/Portfolio/static/media/RevoTriviaCard.ea88581018e90853deb4.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.acd581ed.css.map": "/Portfolio/static/css/main.acd581ed.css.map",
-    "main.6dcd8ac6.js.map": "/Portfolio/static/js/main.6dcd8ac6.js.map",
+    "main.c596647b.css.map": "/Portfolio/static/css/main.c596647b.css.map",
+    "main.b3beb51f.js.map": "/Portfolio/static/js/main.b3beb51f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acd581ed.css",
-    "static/js/main.6dcd8ac6.js"
+    "static/css/main.c596647b.css",
+    "static/js/main.b3beb51f.js"
   ]
 }
